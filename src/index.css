@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+  .transform-style-3d {
+    transform-style: preserve-3d;
+  }
+  .backface-hidden {
+    backface-visibility: hidden;
+  }
+  .rotate-y-180 {
+    transform: rotateY(180deg);
+  }
+}
+
+@media print {
+  header,
+  nav,
+  button,
+  .no-print {
+    display: none !important;
+  }
+
+  body {
+    background-color: white !important;
+    color: black !important;
+  }
+
+  .bg-zinc-900,
+  .bg-zinc-950,
+  .bg-zinc-800 {
+    background-color: transparent !important;
+    color: black !important;
+    border-color: #ddd !important;
+  }
+
+  h1, h2, h3, h4, p, span, code {
+    color: black !important;
+  }
+}

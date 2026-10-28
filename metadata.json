@@ -1,0 +1,6 @@
+{
+  "name": "Synapse - AI Lecture Summarizer & Revision Assistant",
+  "description": "Transform lecture transcripts into comprehensive study guides, key concepts, formulas, revision points, flashcards, and exam practice questions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
